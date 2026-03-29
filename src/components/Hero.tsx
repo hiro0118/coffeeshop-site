@@ -18,7 +18,7 @@ export default async function Hero() {
         />
       </div>
       <div className="relative z-10 text-center flex flex-col items-center">
-        <h1 className="font-headline italic text-white tracking-tighter text-shadow-elegant text-4xl md:text-7xl">
+        <h1 className="font-headline text-white tracking-tighter text-shadow-elegant text-4xl md:text-7xl">
           <div className="flex flex-col items-center justify-center gap-4 md:gap-8">
             <Image
               src={images.heroLogo}

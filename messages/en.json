@@ -1,13 +1,12 @@
 {
   "NavBar": {
     "ourStory": "Our Story",
-    "theBrew": "The Brew",
     "menu": "Menu",
     "location": "Location",
     "orderNow": "Order Now"
   },
   "Hero": {
-    "logoAlt": "Pig-nic & Brew logo",
+    "logoAlt": "Oinky Coffee logo",
     "heroBgAlt": "Close-up of dark roasted coffee beans with warm dramatic lighting"
   },
   "StorySection": {
@@ -83,7 +82,7 @@
     }
   },
   "Metadata": {
-    "title": "Pig-nic & Brew",
+    "title": "Oinky Coffee",
     "description": "Where ritual meets roast. A coffeeshop built on transformation. Est. 2024 — The Modern Alchemist."
   }
 }

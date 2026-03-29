@@ -26,7 +26,7 @@ export default async function LocationSection() {
             <span className="font-label text-[#D4C3BF] uppercase tracking-widest text-xs mb-4 block">
               {t("eyebrow")}
             </span>
-            <h2 className="font-headline italic text-4xl md:text-6xl text-[#FBFBE2] mb-12">
+            <h2 className="font-headline text-4xl md:text-6xl text-[#FBFBE2] mb-12">
               {t("headline")}
             </h2>
             <div className="space-y-12">

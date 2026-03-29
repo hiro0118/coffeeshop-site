@@ -1,7 +1,7 @@
 import type { MenuItem, ShopInfo, SocialLink } from "@/types";
 
 export const shopInfo: ShopInfo = {
-  name: "Pig-nic & Brew",
+  name: "Oinky Coffee",
   foundedYear: 2024,
 };
 

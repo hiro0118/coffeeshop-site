@@ -22,7 +22,7 @@ export default function NavBar() {
       }`}
     >
       <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
-        <a href="#" className="text-2xl font-headline italic text-[#FBFBE2] tracking-tighter">
+        <a href="#" className="text-2xl font-headline text-[#FBFBE2] tracking-tighter">
           {shopInfo.name}
         </a>
         <div className="hidden md:flex items-center gap-8">
@@ -34,12 +34,6 @@ export default function NavBar() {
           </a>
           <a
             href="#brew"
-            className="text-[#D4C3BF] font-medium hover:text-[#FBFBE2] transition-colors duration-300"
-          >
-            {t("theBrew")}
-          </a>
-          <a
-            href="#menu"
             className="text-[#D4C3BF] font-medium hover:text-[#FBFBE2] transition-colors duration-300"
           >
             {t("menu")}

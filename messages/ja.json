@@ -1,13 +1,12 @@
 {
   "NavBar": {
     "ourStory": "ストーリー",
-    "theBrew": "ザ・ブリュー",
     "menu": "メニュー",
     "location": "アクセス",
     "orderNow": "ご注文はこちら"
   },
   "Hero": {
-    "logoAlt": "Pig-nic & Brew ロゴ",
+    "logoAlt": "Oinky Coffee ロゴ",
     "heroBgAlt": "ドラマチックな光に照らされた、深く焙煎されたコーヒー豆のクローズアップ"
   },
   "StorySection": {
@@ -83,7 +82,7 @@
     }
   },
   "Metadata": {
-    "title": "Pig-nic & Brew",
+    "title": "Oinky Coffee",
     "description": "焙煎という名の儀式。日々を変容させる、特別な一杯のために。2024年創業 — 現代の錬金術師。"
   }
 }

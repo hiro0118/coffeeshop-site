@@ -15,7 +15,7 @@ export default async function StorySection() {
           <span className="font-label text-[#D4C3BF] uppercase tracking-widest text-xs mb-4 block">
             {t("eyebrow")}
           </span>
-          <h2 className="font-headline italic text-4xl md:text-6xl mb-8 leading-tight whitespace-pre-line">
+          <h2 className="font-headline text-4xl md:text-6xl mb-8 leading-tight whitespace-pre-line">
             {t("headline")}
           </h2>
           <p className="text-[#D4C3BF] font-body text-lg leading-relaxed mb-8 max-w-md">
