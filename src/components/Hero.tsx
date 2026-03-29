@@ -20,12 +20,11 @@ export default async function Hero() {
       <div className="relative z-10 text-center flex flex-col items-center">
         <h1 className="font-headline text-white tracking-tighter text-shadow-elegant text-4xl md:text-7xl">
           <div className="flex flex-col items-center justify-center gap-4 md:gap-8">
-            <Image
-              src={images.heroLogo}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.svg"
               alt={t("logoAlt")}
-              width={96}
-              height={96}
-              className="w-16 h-16 md:w-24 md:h-24 rounded-[9999px] object-cover border-2 border-white/10 shadow-lg"
+              className="w-32 h-32 md:w-48 md:h-48"
             />
             <span>{shopInfo.name}</span>
           </div>
