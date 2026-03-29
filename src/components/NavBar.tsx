@@ -1,9 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import { shopInfo } from "@/lib/db";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function NavBar() {
+  const t = useTranslations("NavBar");
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -27,30 +30,33 @@ export default function NavBar() {
             href="#story"
             className="text-[#D4C3BF] font-medium hover:text-[#FBFBE2] transition-colors duration-300"
           >
-            Our Story
+            {t("ourStory")}
           </a>
           <a
             href="#brew"
             className="text-[#D4C3BF] font-medium hover:text-[#FBFBE2] transition-colors duration-300"
           >
-            The Brew
+            {t("theBrew")}
           </a>
           <a
             href="#menu"
             className="text-[#D4C3BF] font-medium hover:text-[#FBFBE2] transition-colors duration-300"
           >
-            Menu
+            {t("menu")}
           </a>
           <a
             href="#location"
             className="text-[#D4C3BF] font-medium hover:text-[#FBFBE2] transition-colors duration-300"
           >
-            Location
+            {t("location")}
           </a>
         </div>
-        <button className="bg-[#FBFBE2] text-[#351F1B] px-6 py-2 rounded-xl font-label text-xs uppercase tracking-widest hover:opacity-90 active:scale-95 transition-all">
-          Order Now
-        </button>
+        <div className="flex items-center gap-3">
+          <LanguageSwitcher />
+          <button className="bg-[#FBFBE2] text-[#351F1B] px-6 py-2 rounded-xl font-label text-xs uppercase tracking-widest hover:opacity-90 active:scale-95 transition-all">
+            {t("orderNow")}
+          </button>
+        </div>
       </div>
     </nav>
   );

@@ -55,9 +55,9 @@ const config: Config = {
         "on-background": "#fbfbe2",
       },
       fontFamily: {
-        headline: ["var(--font-headline)", "serif"],
-        body: ["var(--font-body)", "sans-serif"],
-        label: ["var(--font-body)", "sans-serif"],
+        headline: ["var(--font-headline)", "var(--font-jp)", "serif"],
+        body: ["var(--font-body)", "var(--font-jp)", "sans-serif"],
+        label: ["var(--font-body)", "var(--font-jp)", "sans-serif"],
       },
       borderRadius: {
         DEFAULT: "0.125rem",

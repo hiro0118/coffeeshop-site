@@ -1,8 +1,7 @@
-import type { MenuItem, ShopInfo, LocationInfo, SocialLink } from "@/types";
+import type { MenuItem, ShopInfo, SocialLink } from "@/types";
 
 export const shopInfo: ShopInfo = {
   name: "Pig-nic & Brew",
-  tagline: "Est. 2024 — The Modern Alchemist",
   foundedYear: 2024,
 };
 
@@ -22,57 +21,27 @@ export const images = {
 export const menuItems: MenuItem[] = [
   {
     id: "obsidian-drip",
-    name: "The Obsidian Drip",
     price: "$6.50",
-    description:
-      "Our flagship pour-over. Ethiopian single-origin beans with distinct notes of bergamot and jasmine.",
-    tag: "Signature Roast",
   },
   {
     id: "oat-cortado",
-    name: "Oat Milk Cortado",
     price: "$5.25",
-    description:
-      "A perfect 1:1 ratio of silky steamed oat milk and a double shot of our espresso blend.",
-    tag: "Vegan Friendly",
   },
   {
     id: "truffle-latte",
-    name: "Smoked Truffle Latte",
     price: "$8.00",
-    description:
-      "A daring fusion of dark chocolate, smoked hickory salt, and a hint of white truffle oil.",
-    tag: "Chef's Choice",
   },
   {
     id: "artisanal-toast",
-    name: "Artisanal Toast",
     price: "$12.00",
-    description:
-      "Thick-cut brioche topped with whipped honey ricotta and roasted seasonal figs.",
-    tag: "Sweet Pairing",
   },
   {
     id: "tasting-flight",
-    name: "The Tasting Flight",
     price: null,
-    description:
-      "Experience the full spectrum of our roasting profiles. A curated trio of our rarest seasonal harvests served in crystal glassware.",
-    tag: "Experience",
     featured: true,
-    ctaLabel: "Book a Session",
     ctaHref: "#location",
   },
 ];
-
-export const locationInfo: LocationInfo = {
-  locationName: "The Roastery",
-  address: ["124 Artisanal Way, Brew District", "Portland, OR 97204"],
-  hours: [
-    { days: "Mon — Fri", hours: "07:00 – 19:00" },
-    { days: "Sat — Sun", hours: "08:00 – 21:00" },
-  ],
-};
 
 export const socialLinks: SocialLink[] = [
   { platform: "instagram", href: "#", label: "Instagram", icon: "camera" },

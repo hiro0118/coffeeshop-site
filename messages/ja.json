@@ -1,0 +1,89 @@
+{
+  "NavBar": {
+    "ourStory": "ストーリー",
+    "theBrew": "ザ・ブリュー",
+    "menu": "メニュー",
+    "location": "アクセス",
+    "orderNow": "ご注文はこちら"
+  },
+  "Hero": {
+    "logoAlt": "Pig-nic & Brew ロゴ",
+    "heroBgAlt": "ドラマチックな光に照らされた、深く焙煎されたコーヒー豆のクローズアップ"
+  },
+  "StorySection": {
+    "eyebrow": "変容",
+    "headline": "大地から、\n本質へ。",
+    "body": "豆はみな、育った土地の物語を宿しています。その声に耳を澄ませながら、私たちは焙煎という錬金術を重ねる。チェリー、チョコレート、スモーク——豆の奥に眠る風味を、一杯ずつ丁寧に呼び起こして。",
+    "cta": "こだわりを知る",
+    "imageAlt": "暗い木製テーブルの上、挽きたてのコーヒーが香るヴィンテージの手動グラインダー"
+  },
+  "MenuSection": {
+    "eyebrow": "錬金術",
+    "headline": "丁寧に仕立てた、スペシャルティコーヒーの世界。",
+    "menuImageAlt": "静かな湯気が立ち上る、ポアオーバーコーヒーの一滴",
+    "pullQuote": "最上の一杯とは、記憶に似た味がする。"
+  },
+  "LocationSection": {
+    "eyebrow": "余韻",
+    "headline": "安らぎの場所へ。",
+    "hoursLabel": "営業時間",
+    "socialLabel": "つながる",
+    "locationImageAlt": "黒大理石のテーブルに静かに佇む、葉模様のラテアートが描かれた白磁のカップ"
+  },
+  "Footer": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "directions": "アクセス",
+    "privacy": "プライバシーポリシー",
+    "tagline": "現代の錬金術師。"
+  },
+  "LanguageSwitcher": {
+    "label": "言語"
+  },
+  "db": {
+    "shopInfo": {
+      "tagline": "2024年創業 — 現代の錬金術師"
+    },
+    "menuItems": {
+      "obsidian-drip": {
+        "name": "オブシディアン・ドリップ",
+        "description": "看板のポアオーバー。エチオピア産シングルオリジン豆を使い、ベルガモットとジャスミンの清澄な香りが静かに広がります。",
+        "tag": "シグネチャーロースト"
+      },
+      "oat-cortado": {
+        "name": "オーツミルク・コルタード",
+        "description": "なめらかなオーツミルクと、コクのあるエスプレッソを1:1で。やさしい甘みと力強さが調和した一杯。",
+        "tag": "ヴィーガン対応"
+      },
+      "truffle-latte": {
+        "name": "スモークトリュフ・ラテ",
+        "description": "ダークチョコレートとスモークドソルト、ほのかなホワイトトリュフが幾重にも重なる、大胆で奥深い一杯。",
+        "tag": "シェフのおすすめ"
+      },
+      "artisanal-toast": {
+        "name": "アルチザン・トースト",
+        "description": "厚切りブリオッシュに、はちみつリコッタと季節のロースト無花果を添えて。甘さと香ばしさの、小さな贅沢。",
+        "tag": "スイートペアリング"
+      },
+      "tasting-flight": {
+        "name": "テイスティング・フライト",
+        "description": "焙煎の深さを、3種の味わいで。希少なシーズナルハーベストをクリスタルグラスに注いで、じっくりとお楽しみください。",
+        "tag": "体験",
+        "ctaLabel": "体験を予約する"
+      }
+    },
+    "locationInfo": {
+      "locationName": "ザ・ロースタリー",
+      "address0": "124 Artisanal Way, Brew District",
+      "address1": "Portland, OR 97204",
+      "hours0days": "月 〜 金",
+      "hours0hours": "07:00 – 19:00",
+      "hours1days": "土・日",
+      "hours1hours": "08:00 – 21:00"
+    }
+  },
+  "Metadata": {
+    "title": "Pig-nic & Brew",
+    "description": "焙煎という名の儀式。日々を変容させる、特別な一杯のために。2024年創業 — 現代の錬金術師。"
+  }
+}

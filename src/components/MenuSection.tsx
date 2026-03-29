@@ -1,9 +1,21 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 import { menuItems, images } from "@/lib/db";
 
-export default function MenuSection() {
-  const regularItems = menuItems.filter((item) => !item.featured);
-  const featuredItem = menuItems.find((item) => item.featured);
+export default async function MenuSection() {
+  const t = await getTranslations("MenuSection");
+  const tDb = await getTranslations("db");
+
+  const localizedItems = menuItems.map((item) => ({
+    ...item,
+    name: tDb(`menuItems.${item.id}.name`),
+    description: tDb(`menuItems.${item.id}.description`),
+    tag: tDb(`menuItems.${item.id}.tag`),
+    ctaLabel: item.ctaHref ? tDb(`menuItems.${item.id}.ctaLabel`) : undefined,
+  }));
+
+  const regularItems = localizedItems.filter((item) => !item.featured);
+  const featuredItem = localizedItems.find((item) => item.featured);
 
   return (
     <section className="py-32 bg-[#351F1B]" id="brew">
@@ -11,10 +23,10 @@ export default function MenuSection() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div className="max-w-xl">
             <span className="font-label text-[#D4C3BF] uppercase tracking-widest text-xs mb-4 block">
-              The Alchemy
+              {t("eyebrow")}
             </span>
             <h2 className="font-headline italic text-4xl md:text-6xl text-[#FBFBE2] leading-tight">
-              A Refined Collection of Specialty Brews.
+              {t("headline")}
             </h2>
           </div>
           <div className="w-24 h-[1px] bg-white/10 mb-4 hidden md:block" />
@@ -26,14 +38,14 @@ export default function MenuSection() {
             <div className="sticky top-32">
               <Image
                 src={images.menuFeatured}
-                alt="Pour-over coffee being brewed with elegant steam rising"
+                alt={t("menuImageAlt")}
                 width={400}
                 height={600}
                 className="rounded-xl w-full h-[600px] object-cover shadow-lg"
               />
               <div className="mt-6 p-6 bg-surface-container-low rounded-xl border border-white/5">
                 <p className="font-headline italic text-xl text-[#FBFBE2]">
-                  &ldquo;The best coffee is the one that tastes like a memory.&rdquo;
+                  &ldquo;{t("pullQuote")}&rdquo;
                 </p>
               </div>
             </div>
