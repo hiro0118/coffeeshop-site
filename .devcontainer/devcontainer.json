@@ -5,8 +5,12 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "postCreateCommand": "npm install && npm install -g @anthropic-ai/claude-code",
-  "appPort": ["3001:3001"],
-  "forwardPorts": [3001],
+  "appPort": [
+    "3001:3001"
+  ],
+  "forwardPorts": [
+    3001
+  ],
   "portsAttributes": {
     "3001": {
       "label": "Next.js Dev Server",

@@ -1,0 +1,89 @@
+{
+  "NavBar": {
+    "ourStory": "Our Story",
+    "theBrew": "The Brew",
+    "menu": "Menu",
+    "location": "Location",
+    "orderNow": "Order Now"
+  },
+  "Hero": {
+    "logoAlt": "Pig-nic & Brew logo",
+    "heroBgAlt": "Close-up of dark roasted coffee beans with warm dramatic lighting"
+  },
+  "StorySection": {
+    "eyebrow": "The Transformation",
+    "headline": "From Earth to\nEssence.",
+    "body": "Every bean tells a story of the soil it left behind. We respect that narrative by mastering the alchemy of the grind, extracting the hidden notes of cherry, chocolate, and smoke that define our signature artisanal profile.",
+    "cta": "Learn Our Process",
+    "imageAlt": "Vintage hand-crank coffee grinder with ground coffee on dark wooden surface"
+  },
+  "MenuSection": {
+    "eyebrow": "The Alchemy",
+    "headline": "A Refined Collection of Specialty Brews.",
+    "menuImageAlt": "Pour-over coffee being brewed with elegant steam rising",
+    "pullQuote": "The best coffee is the one that tastes like a memory."
+  },
+  "LocationSection": {
+    "eyebrow": "The Finale",
+    "headline": "Visit the Sanctuary.",
+    "hoursLabel": "Hours of Calm",
+    "socialLabel": "Join the Circle",
+    "locationImageAlt": "Perfect porcelain cup of latte with leaf latte art on dark marble cafe table"
+  },
+  "Footer": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "directions": "Directions",
+    "privacy": "Privacy",
+    "tagline": "The Modern Alchemist."
+  },
+  "LanguageSwitcher": {
+    "label": "Language"
+  },
+  "db": {
+    "shopInfo": {
+      "tagline": "Est. 2024 — The Modern Alchemist"
+    },
+    "menuItems": {
+      "obsidian-drip": {
+        "name": "The Obsidian Drip",
+        "description": "Our flagship pour-over. Ethiopian single-origin beans with distinct notes of bergamot and jasmine.",
+        "tag": "Signature Roast"
+      },
+      "oat-cortado": {
+        "name": "Oat Milk Cortado",
+        "description": "A perfect 1:1 ratio of silky steamed oat milk and a double shot of our espresso blend.",
+        "tag": "Vegan Friendly"
+      },
+      "truffle-latte": {
+        "name": "Smoked Truffle Latte",
+        "description": "A daring fusion of dark chocolate, smoked hickory salt, and a hint of white truffle oil.",
+        "tag": "Chef's Choice"
+      },
+      "artisanal-toast": {
+        "name": "Artisanal Toast",
+        "description": "Thick-cut brioche topped with whipped honey ricotta and roasted seasonal figs.",
+        "tag": "Sweet Pairing"
+      },
+      "tasting-flight": {
+        "name": "The Tasting Flight",
+        "description": "Experience the full spectrum of our roasting profiles. A curated trio of our rarest seasonal harvests served in crystal glassware.",
+        "tag": "Experience",
+        "ctaLabel": "Book a Session"
+      }
+    },
+    "locationInfo": {
+      "locationName": "The Roastery",
+      "address0": "124 Artisanal Way, Brew District",
+      "address1": "Portland, OR 97204",
+      "hours0days": "Mon — Fri",
+      "hours0hours": "07:00 – 19:00",
+      "hours1days": "Sat — Sun",
+      "hours1hours": "08:00 – 21:00"
+    }
+  },
+  "Metadata": {
+    "title": "Pig-nic & Brew",
+    "description": "Where ritual meets roast. A coffeeshop built on transformation. Est. 2024 — The Modern Alchemist."
+  }
+}
