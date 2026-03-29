@@ -25,7 +25,7 @@ export default async function MenuSection() {
             <span className="font-label text-[#D4C3BF] uppercase tracking-widest text-xs mb-4 block">
               {t("eyebrow")}
             </span>
-            <h2 className="font-headline italic text-4xl md:text-6xl text-[#FBFBE2] leading-tight">
+            <h2 className="font-headline text-4xl md:text-6xl text-[#FBFBE2] leading-tight">
               {t("headline")}
             </h2>
           </div>
@@ -44,7 +44,7 @@ export default async function MenuSection() {
                 className="rounded-xl w-full h-[600px] object-cover shadow-lg"
               />
               <div className="mt-6 p-6 bg-surface-container-low rounded-xl border border-white/5">
-                <p className="font-headline italic text-xl text-[#FBFBE2]">
+                <p className="font-headline text-xl text-[#FBFBE2]">
                   &ldquo;{t("pullQuote")}&rdquo;
                 </p>
               </div>
@@ -82,7 +82,7 @@ export default async function MenuSection() {
               <div className="md:col-span-2 bg-[#2b1613] p-8 rounded-xl text-[#FBFBE2] border border-white/5">
                 <div className="flex flex-col md:flex-row gap-8 items-center">
                   <div className="flex-1">
-                    <h3 className="font-headline italic text-3xl mb-4 text-[#FBFBE2]">
+                    <h3 className="font-headline text-3xl mb-4 text-[#FBFBE2]">
                       {featuredItem.name}
                     </h3>
                     <p className="text-[#D4C3BF]/80 text-sm leading-relaxed mb-6">

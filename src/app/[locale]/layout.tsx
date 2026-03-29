@@ -1,31 +1,30 @@
 import type { Metadata } from "next";
-import { Newsreader, Manrope, Noto_Sans_JP } from "next/font/google";
+import { Chewy, Nunito, Kosugi_Maru } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getTranslations, getMessages, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { routing, type Locale } from "@/i18n/routing";
 import "../globals.css";
 
-const newsreader = Newsreader({
+const chewy = Chewy({
   subsets: ["latin"],
   variable: "--font-headline",
   display: "swap",
-  style: ["normal", "italic"],
-  weight: ["400", "700"],
+  weight: "400",
 });
 
-const manrope = Manrope({
+const nunito = Nunito({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
   weight: ["400", "500", "700"],
 });
 
-const notoSansJP = Noto_Sans_JP({
+const kosugiMaru = Kosugi_Maru({
   subsets: ["latin"],
   variable: "--font-jp",
   display: "swap",
-  weight: ["400", "500", "700"],
+  weight: "400",
 });
 
 export function generateStaticParams() {
@@ -61,7 +60,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${newsreader.variable} ${manrope.variable} ${notoSansJP.variable} dark`}
+      className={`${chewy.variable} ${nunito.variable} ${kosugiMaru.variable} dark`}
     >
       <head>
         <link
