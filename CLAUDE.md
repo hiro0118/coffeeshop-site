@@ -15,3 +15,7 @@ Whenever you install any additional packages or tools, reflect the change approp
 ## Git Commits
 
 Do not include `Co-Authored-By` trailers in commit messages.
+
+## Pull Requests
+
+Do not include a test plan section in PR descriptions.
