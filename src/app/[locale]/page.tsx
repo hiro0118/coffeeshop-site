@@ -5,6 +5,7 @@ import StorySection from "@/components/StorySection";
 import MenuSection from "@/components/MenuSection";
 import LocationSection from "@/components/LocationSection";
 import Footer from "@/components/Footer";
+import BeanAnimation from "@/components/BeanAnimation";
 
 export default async function Home({
   params,
@@ -18,8 +19,11 @@ export default async function Home({
     <>
       <NavBar />
       <main>
-        <Hero />
-        <StorySection />
+        <div className="relative">
+          <Hero />
+          <StorySection />
+          <BeanAnimation />
+        </div>
         <MenuSection />
         <LocationSection />
       </main>

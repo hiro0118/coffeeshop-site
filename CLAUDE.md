@@ -2,14 +2,20 @@
 
 ## Environment
 
-This project is developed exclusively inside a devcontainer (`.devcontainer/devcontainer.json`).
+This project uses [mise](https://mise.jdx.dev/) for runtime version management. The Node.js version is pinned in `mise.toml`.
 
 ## Dependency Installations
 
-Whenever you install any additional packages or tools, reflect the change in `.devcontainer/devcontainer.json`:
+Whenever you install any additional packages or tools, reflect the change appropriately:
 
-- **npm project packages** (`npm install <pkg>`): these are already captured in `package.json`, which `postCreateCommand` installs automatically — no devcontainer change needed.
-- **Global npm tools** (`npm install -g <pkg>`): add the install command to `postCreateCommand`.
-- **System packages** (apt, curl-installed tools, etc.): add the install command to `postCreateCommand` or a `postStartCommand` as appropriate.
+- **npm project packages** (`npm install <pkg>`): captured automatically in `package.json` / `package-lock.json` — no other change needed.
+- **Global npm tools** (`npm install -g <pkg>`): document in this file or in a setup script.
+- **Runtime versions** (Node, etc.): update `mise.toml`.
 
-This ensures the devcontainer stays reproducible for fresh rebuilds.
+## Git Commits
+
+Do not include `Co-Authored-By` trailers in commit messages.
+
+## Pull Requests
+
+Do not include a test plan section in PR descriptions.
