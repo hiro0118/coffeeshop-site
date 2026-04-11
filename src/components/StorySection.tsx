@@ -11,7 +11,7 @@ export default async function StorySection() {
       id="story"
     >
       <div className="max-w-7xl mx-auto px-8 grid md:grid-cols-12 gap-16 items-center">
-        <div className="md:col-span-5 order-2 md:order-1">
+        <div className="md:col-span-5 md:order-1">
           <span className="font-label text-[#D4C3BF] uppercase tracking-widest text-xs mb-4 block">
             {t("eyebrow")}
           </span>
@@ -26,7 +26,7 @@ export default async function StorySection() {
             <span className="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
         </div>
-        <div className="md:col-span-7 order-1 md:order-2">
+        <div className="md:col-span-7 md:order-2">
           <div className="relative group">
             <div className="absolute -top-6 -left-6 w-full h-full border border-white/10 rounded-xl" />
             <Image

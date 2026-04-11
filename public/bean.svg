@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="150"
+   height="205"
+   viewBox="0 0 150 205"
+   sodipodi:docname="beans.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.71120127"
+     inkscape:cx="387.37276"
+     inkscape:cy="229.18969"
+     inkscape:window-width="1440"
+     inkscape:window-height="890"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <path
+       style="fill:#441a10;fill-opacity:1;stroke:none;stroke-opacity:1"
+       d="M 77.421914,10.71705 C 32.957285,11.665683 7.8982127,57.267351 7.9401227,103.3205 7.9739527,140.52489 29.439173,191.61911 72.784289,193.55645 54.305612,167.88058 49.618556,130.12006 53.885987,92.867989 57.338104,62.733141 66.303025,41.604169 77.421914,10.71705 Z"
+       id="path2"
+       sodipodi:nodetypes="cscsc" />
+    <path
+       style="fill:#954824;fill-opacity:1;stroke:none;stroke-opacity:1"
+       d="M 79.293996,193.86416 C 47.154158,194.40097 31.790695,141.36835 34.299746,93.671072 36.835193,45.47198 49.750757,11.416478 82.200025,10.297774 118.81407,9.035479 137.73935,51.294207 139.1522,102.11152 c 1.11769,40.201 -14.04376,90.98742 -59.858204,91.75264 z"
+       id="path1"
+       sodipodi:nodetypes="sssss" />
+    <path
+       style="fill:#441a10;fill-opacity:1;stroke:none;stroke-opacity:1"
+       d="M 88.432058,25.965031 C 83.364114,74.514345 81.891522,125.32363 86.612307,180.02594 107.44668,126.2474 96.92885,68.943457 88.432058,25.965031 Z"
+       id="path3"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Image 1" />
+</svg>
